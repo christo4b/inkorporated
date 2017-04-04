@@ -1,6 +1,8 @@
 var canvas = document.getElementById("drawydrawdraw");
     canvas.width = document.body.clientWidth; //document.width is obsolete
+console.log(canvas.width);
     canvas.height = window.innerHeight; //document.height is obsolete
+console.log(canvas.height);
 var context = canvas.getContext("2d");
 context.lineWidth=1;
 var drawing = false;

@@ -20,7 +20,9 @@ a {
 a:hover {color: #555376}
 
 canvas {
-        z-index: -10000000;
+z-index: -10000000000;
+position: static;
+
 }
 #logo {
     width: 100px;
