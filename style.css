@@ -58,4 +58,9 @@ input[type='range'] {
     -webkit-transform-origin: top left;
    margin: 50px;
 }  
-
+.socmedbutt {
+	display: inline-block;	
+}
+.slidey {
+	display: inline-block;
+}
