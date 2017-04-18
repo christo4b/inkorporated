@@ -33,4 +33,6 @@ $(canvas).mouseup(function(e){
     drawing = false;
     
 });
-
+function geraldine(newValue) {
+	context.lineWidth = newValue;
+}
