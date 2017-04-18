@@ -4,11 +4,7 @@ var canvas = document.getElementById("drawydrawdraw");
 var context = canvas.getContext("2d");
 var drawing = false;
 
-var space = document.body.clientWidth / 360;    
-for (var i = 0; i < 360; i = i + 1){
-    context.fillStyle = "hsl(" + i + ", 100%, 50%)";
-    context.fillRect(i * space,window.innerHeight-50,space,50);
-}
+rainbowRainbow()
 
 $(canvas).mousedown(function(e){ 
     drawing = true;
@@ -35,4 +31,15 @@ $(canvas).mouseup(function(e){
 });
 function geraldine(newValue) {
 	context.lineWidth = newValue;
+}
+function leonard() {
+	context.clearRect(0,0,canvas.width,canvas.height-50);
+	rainbowRainbow()
+}
+function rainbowRainbow() {
+	var space = document.body.clientWidth / 360;    
+for (var i = 0; i < 360; i = i + 1){
+    context.fillStyle = "hsl(" + i + ", 100%, 50%)";
+    context.fillRect(i * space,window.innerHeight-50,space,50);
+}
 }
